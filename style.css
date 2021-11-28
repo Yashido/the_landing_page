@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .container {
@@ -37,12 +37,18 @@ ul {
     margin-left: auto;
     gap: 24px;
     font-size: 26px;
+    width: auto;
 }
 
 a {
     text-decoration: none;
+    color: rgb(201, 141, 219);
 }
 
+li a:hover {
+    background-color: rgb(208, 243, 240);
+    color: rgb(201, 141, 219);
+}
 /* ct-hero */
 
 .ct-hero {
@@ -79,6 +85,15 @@ a {
     font-size: 24px;
 }
 
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: rgb(219, 111, 196);
+    background: #ffffff;
+    border: 1px solid rgb(144, 226, 226);
+    width: 100px;
+}
+
 .hero-img img {
     height: 300px;
     box-shadow: 0px 0px 20px rgb(119, 119, 119);
@@ -95,8 +110,11 @@ a {
 .ctp-info {
     display: flex;
     align-self: center;
-    margin-top: 100px;
-    font-size: 46px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 56px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .ctp-box {
@@ -104,6 +122,7 @@ a {
     justify-content: space-evenly;
     text-align: center;
     gap: 10px;
+    font-size: 24px;
 }
 
 .box-image img{
@@ -118,4 +137,29 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/* Quote */
+
+.ct-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    height: 600px;
+    background-color: rgb(208, 243, 240);
+
+}
+
+.ctq-quote {
+    font-size: 64px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.ctq-author {
+    font-size: 48px;
+    margin-top: 0px;
+    margin-left: auto;
 }
