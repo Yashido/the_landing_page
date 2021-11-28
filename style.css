@@ -13,10 +13,6 @@ body {
 
 /* Header - Nav */
 
-.ct-header {
-    background-color: white;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -42,23 +38,25 @@ ul {
 
 a {
     text-decoration: none;
-    color: rgb(201, 141, 219);
+    color: rgb(255, 255, 255);
 }
 
 li a:hover {
-    background-color: rgb(208, 243, 240);
-    color: rgb(201, 141, 219);
+    background-color: rgb(0, 255, 234);
+    color: rgb(0, 0, 0);
 }
 /* ct-hero */
 
 .ct-hero {
     background-image: url(image/background.png);
     width: 100%;
-    height: 700px;
+    height: 900px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    margin-top: -94px;
 }
 
 .hero {
@@ -105,10 +103,12 @@ button {
     display: flex;
     flex-direction: column;
     height: 600px;
+    align-items: center;
 }
 
 .ctp-info {
     display: flex;
+    justify-content: center;
     align-self: center;
     padding-top: 50px;
     padding-bottom: 40px;
@@ -121,12 +121,12 @@ button {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
-    gap: 10px;
-    font-size: 24px;
+    gap: 200px;
+    font-size: 16px;
 }
 
 .box-image img{
-    height: 200px;
+    width: 250px;
     border: 3px solid #7180cc;
     border-radius: 50%;
     box-shadow: 0px 0px 60px #ce9ab0;
@@ -148,18 +148,87 @@ button {
     align-items: center;
     padding: 60px;
     height: 600px;
-    background-color: rgb(208, 243, 240);
+    background-image: url(image/Color_grade.png);
 
 }
 
 .ctq-quote {
-    font-size: 64px;
+    font-family: Times;
+    font-size: 56px;
     font-style: italic;
+    color: white;
     margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .ctq-author {
-    font-size: 48px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Times new roman';
+    color: rgb(255, 255, 255);
     margin-top: 0px;
     margin-left: auto;
+    margin-right: 240px;
+}
+
+/* Call to Action */
+
+.ct-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 900px; 
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 20px #ce9ab0;
+    border-radius: 30px;
+    background-image: url(image/background.png);
+}
+
+.cta-sub-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.ctab-action {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.ctab-sub-action {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.cta-button {
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+/* Footer */
+
+.ct-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: url(image/background.png);
+}
+
+.ctf-footer {
+    display: flex;
+    font-size: 18px;
+    color: white;
+    align-items: center;
 }
