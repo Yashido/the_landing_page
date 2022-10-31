@@ -1,6 +1,6 @@
 # TOP | The Landing Page project
 
-Project No.1 | Live Preview: https://yashido.github.io/landing/
+Project No.2 | Live Preview: https://yashido.github.io/landing/
 
 A simplistic static landing page project from
 The Odin Project. This page was created using 
